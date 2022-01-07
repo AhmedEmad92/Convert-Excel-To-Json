@@ -52,4 +52,5 @@ data = json.dumps(my_list, sort_keys=True, indent=4,default=str,ensure_ascii=Fal
 
 with open(json_file, 'w', encoding='utf-8') as f:
     f.write(data)
+    print("Finished !")
 f.close()
